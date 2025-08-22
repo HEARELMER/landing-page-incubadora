@@ -1,2 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+
+@theme {
+--color-primary-50: #fef2f2;
+--color-primary-100: #fee3e2;
+--color-primary-200: #fecbca;
+--color-primary-300: #fca7a5;
+--color-primary-400: #f87471;
+--color-primary-500: #ef413d;
+--color-primary-600: #dd2925;
+--color-primary-700: #b9201c;
+--color-primary-800: #991e1b;
+--color-primary-900: #7f1f1d;
+--color-primary-950: #450b0a;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
