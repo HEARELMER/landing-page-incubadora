@@ -20,7 +20,7 @@ export const MENU_OPTIONS: MenuNode[] = [
   {
     key: 'cases-library',
     label: 'Casoteca',
-    routerLink: '/cases-library',
+    routerLink: '/cases_library',
   },
   {
     key: 'about_us',
