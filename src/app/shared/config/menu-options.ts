@@ -18,9 +18,9 @@ export const MENU_OPTIONS: MenuNode[] = [
     routerLink: '/defense',
   },
   {
-    key: 'sales',
+    key: 'cases-library',
     label: 'Casoteca',
-    routerLink: '/sales',
+    routerLink: '/cases-library',
   },
   {
     key: 'about_us',
