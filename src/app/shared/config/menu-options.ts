@@ -19,7 +19,7 @@ export const MENU_OPTIONS: MenuNode[] = [
   },
   {
     key: 'sales',
-    label: 'Casos',
+    label: 'Casoteca',
     routerLink: '/sales',
   },
   {
