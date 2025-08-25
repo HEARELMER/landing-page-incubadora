@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ButtonComponent } from "../../components/button/button.component";
-import { MENU_OPTIONS } from '../../components/config/menu-options';
+import { MENU_OPTIONS } from '../../config/menu-options';
 import { RouterLink } from '@angular/router';
 
 @Component({
