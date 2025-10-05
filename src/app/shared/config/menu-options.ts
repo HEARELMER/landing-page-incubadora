@@ -8,28 +8,28 @@ export interface MenuNode {
 }
 export const MENU_OPTIONS: MenuNode[] = [
   {
-    key: 'defense',
-    label: 'Diagnóstico',
-    routerLink: '/home',
+    key: '',
+    label: 'Inicio',
+    routerLink: '/',
   },
   {
-    key: 'defense',
-    label: 'Defensa',
-    routerLink: '/defense',
+    key: 'enfoque',
+    label: 'Enfoque',
+    routerLink: '/enfoque',
   },
   {
-    key: 'cases-library',
+    key: 'casoteca',
     label: 'Casoteca',
-    routerLink: '/cases_library',
+    routerLink: '/casoteca',
   },
   {
-    key: 'about_us',
-    label: 'Quiénes Somos',
-    routerLink: '/about_us',
-  },
+    key: 'nosotros',
+    label: 'Nuestro Equipo',
+    routerLink: '/nosotros',
+  }, 
   {
-    key: 'contacts',
+    key: 'contactos',
     label: 'Contactos',
-    routerLink: '/contacts',
-  }
+    routerLink: '/contactos',
+  },
 ];
