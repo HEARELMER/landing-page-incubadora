@@ -1,3 +1,4 @@
+import { NgOptimizedImage } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -5,12 +6,13 @@ import {
   inject,
   signal,
 } from '@angular/core';
-import { MENU_OPTIONS } from '../../config/menu-options';
 import { Router, RouterLink } from '@angular/router';
+
+import { MENU_OPTIONS } from '../../config/menu-options';
 
 @Component({
   selector: 'app-header',
-  imports: [ RouterLink],
+  imports: [RouterLink, NgOptimizedImage],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

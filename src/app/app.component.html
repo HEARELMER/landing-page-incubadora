@@ -1,9 +1,19 @@
 <app-header />
 <router-outlet></router-outlet>
-<button
+<a
   class="fixed bottom-6 right-6 bg-green-400 rounded-full shadow-lg p-3 z-50 hover:shadow-xl transition-shadow cursor-pointer animate-bounce slow-bounce"
-  aria-label="WhatsApp"
+  aria-label="Contactar por WhatsApp"
+  href="https://wa.me/51966608093"
+  target="_blank"
+  rel="noopener noreferrer"
 >
-  <img src="./images/wsicon.svg" alt="WhatsApp" class="w-10 h-10" />
-</button>
+  <img
+    ngSrc="/images/wsicon.svg"
+    alt="WhatsApp"
+    width="40"
+    height="40"
+    class="w-10 h-10"
+    decoding="async"
+  />
+</a>
 <app-footer />
