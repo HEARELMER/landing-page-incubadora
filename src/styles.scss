@@ -1,5 +1,6 @@
- 
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import "primeicons/primeicons.css";
 
 @theme {
@@ -13,10 +14,7 @@
 --color-primary-700: #d70000;
 --color-primary-800: #b10303;
 --color-primary-900: #920a0a;
---color-primary-950: #500000;
-
-
-
+--color-primary-950: #500000; 
 }
 
 * {
